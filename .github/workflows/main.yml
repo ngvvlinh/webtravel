@@ -46,5 +46,5 @@ jobs:
           keep_files: true
           user_name: ngvvlinh
           user_email: ngvvlinh@email.com
-          publish_branch: master
+          publish_branch: main
         #   cname: example.com
