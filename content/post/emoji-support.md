@@ -5,94 +5,14 @@ date = "2021-03-05"
 description = "Guide to emoji usage in Hugo"
 tags = ["emoji"]
 image = "chonoi.jpg"
-piece = "35$"
+prices = "35$"
 +++
 
 The Hidden Fabulous Mekong Floating Market ( 4 hrs)
+
 <!--more-->
+ Coming to Con Son, you can enjoy a lot of fruits grown by the local people, containing no harmful chemicals for your health. If you are a climbing avid, you will experience picking fruit thrones at the garden, the local people will assist you to bring the best experience to visitors, the feeling of eating the fruit you picked yourself is one of the great things as well.
 
-The `[emojify](https://gohugo.io/functions/emojify/)` function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes).
+ Visiting Con Son, you will be able to visit the homes of famous traditional bakers and enjoy different types of folk cakes. Baking ingredients are completely made from 100% nature and processed manually. This is not just a kind of cake, but it is also the childhood of many Vietnamese children.
 
-To enable emoji globally, set `enableEmoji` to `true` in your site’s [configuration](https://gohugo.io/getting-started/configuration/) and then you can type emoji shorthand codes directly in content files; e.g.
-
-<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
-<br>
-
-The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
-
-***
-
-**N.B.** The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
-
-### Inline CSS
-
-```html
-<style>
-  .emojify {
-    font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
-    font-size: 2rem;
-    vertical-align: middle;
-  }
-  @media screen and (max-width:650px) {
-    .nowrap {
-      display: block;
-      margin: 25px 0;
-    }
-  }
-</style>
-```
-
-### Javascript
-
-```javascript
-function createEl(element) {
-  return document.createElement(element);
-}
-
-function elem(selector, parent = document){
-  let elem = parent.querySelector(selector);
-  return elem != false ? elem : false;
-}
-
-let navBar = elem(`.${bar}`);
-let nav = elem('.nav-body');
-let open = 'nav-open';
-let exit = 'nav-exit';
-let drop = 'nav-drop';
-let pop = 'nav-pop';
-let navDrop = elem(`.${drop}`);
-let hidden = 'hidden';
-
-```
-
-### Swift
-
-```swift
-class Person {
-  var residence: Residence?
-}
-
-class Residence {
-  var rooms = [Room]()
-  var numberOfRooms: Int {
-    return rooms.count
-  }
-
-  
-  subscript(i: Int) -> Room {
-    get {
-      return rooms[i]
-    }
-    set {
-      rooms[i] = newValue
-    }
-  }
-  
-  func printNumberOfRooms() {
-    print("The number of rooms is \(numberOfRooms)")
-  }
-
-  var address: Address?
-
-}
-```
+ One of the things that makes you feel warm when coming to Con Son is the friendliness and sincerity of the people here, they are always ready to help you as much as you can without any conditions. It is also a prominent characteristic of Southwestern people in general. That makes visitors feel like a family with no distance between us.
